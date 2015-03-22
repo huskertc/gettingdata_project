@@ -32,7 +32,7 @@ Script name: run_analysis.R
  Then the dataframes are merged and a subset of variables is pulled (the mean and std deviation of each exercise event).
  Note that "meanFreq" is not in the subset as that is weighted avg of frequency-space components.
  Note that the angle means are not in the subset as they are the angle between mean vectors.
- Then the average of each subject-exercise-measurement combination is determined and written to the output table.
+ Then the average of each subject-exercise combination for each measurement variable is determined and written to the output table.
  Output: space-delimited txt file "proj_datatable.txt" written to working directory.
 
 ### Details of the Script Blocks
@@ -45,7 +45,7 @@ Script name: run_analysis.R
 * Read measurement event data and assign descriptive measurement variable names.
 * Determine column index values for "mean()" and "std()" and subset to just those columns.
 * Add row index variable to subject, activity and measurement datasets and merge them by the row index.
-* Determine mean of each sample, grouped by subject and activity (summarizes the data by group.
+* Determine mean of each sample, grouped by subject and activity (summarizes the data by group).
 * Clean up measurement names: drop "()" from name.
 * Write tidy dataset to output table.
 
