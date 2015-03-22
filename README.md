@@ -40,7 +40,7 @@ Move the following files to the working directory prior to running the "run_anal
 
  See CodeBook.md for a description of the variables and data analysis steps for this project.
 
-##  Script explanation
+##  Script Explanation
  The scripts loads the various txt files into dataframes and adds descriptive variable names and activity names.
  Then the dataframes are merged and a subset of variables is pulled (mean and std deviation of each exercise event).
  Note that "meanFreq" is not in the subset as that is weighted avg of frequency-space components.
