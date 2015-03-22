@@ -1,4 +1,4 @@
-# Getting Data Project
+# Codebook: Getting Data Project
 Codebook for "Getting and Cleaning Data" course project
 
 Script name: run_analysis.R
