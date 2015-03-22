@@ -5,9 +5,9 @@ Script name: run_analysis.R
 Rev date: 03/2015
 Requires dplyr package
 
-## Description of the Experiment
-Reference for data source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-Reference for experiment description: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+## Original Data Sources
+* [Data source] (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+* [Experiment description] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 ##  Notes on Data Files
 *  After unzipping, read file "README.txt" (description of the experiment and the data files).

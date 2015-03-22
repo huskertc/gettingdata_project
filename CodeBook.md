@@ -53,12 +53,12 @@ Script name: run_analysis.R
 * subject:  the integer ID of the study participant
 * activity:  description of the exercise activity (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 * measurement names (e.g., tBodyAcc-mean-X, tBodyGyroJerk-mean-X, fBodyAcc-std-Y) built as follows:
-** "t" for time-space data or "f" for frequency-space data
-** "Body" for forces acting on the body or "Gravity" for forces due to gravity
-** "Acc," "AccJerk," "Gyro" or "GyroJerk" to denote acceleration (Acc) or angular velocity (Gyro) and derivative in time (Jerk) signals
-** "Mag" to denote the magnitude of the signal (if calculated)
-** "mean" or "std" to denote the summary statistic for the exercise event (mean or standard deviation)
-** "X,", "Y" or "Z" to denote the axis of the acceleration or velocity (if applicable)
+* "t" for time-space data or "f" for frequency-space data
+* "Body" for forces acting on the body or "Gravity" for forces due to gravity
+* "Acc," "AccJerk," "Gyro" or "GyroJerk" to denote acceleration (Acc) or angular velocity (Gyro) and derivative in time (Jerk) signals
+* "Mag" to denote the magnitude of the signal (if calculated)
+* "mean" or "std" to denote the summary statistic for the exercise event (mean or standard deviation)
+* "X,", "Y" or "Z" to denote the axis of the acceleration or velocity (if applicable)
 
 ## Additional Notes
 * The values in the final tidy dataset are the means of the above variables calculated for each subject-activity-variable combination.
