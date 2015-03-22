@@ -46,4 +46,4 @@ Move the following files to the working directory prior to running the "run_anal
  Note that "meanFreq" is not in the subset as that is weighted avg of frequency-space components.
  Note that the angle means are not in the subset as they are the angle between mean vectors.
  Then the average of each subject-exercise-measurement combination is determined and written to the output table.
- Output: space-delimited txt file "proj_datatable.txt" written to working directory.
+ Output: comma-delimited txt file "proj_datatable.txt" written to working directory.

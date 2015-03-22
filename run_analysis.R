@@ -2,7 +2,7 @@
 #  Rev date: 03/2015
 #  Requires dplyr package
 #
-#  Output: space-delimited txt file "proj_datatable.txt" written to working directory.
+#  Output: comma-delimited txt file "proj_datatable.txt" written to working directory.
 #
 #  Data source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 #  Experiment description: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
@@ -104,7 +104,7 @@ meas_summary <- merge_meas %>% group_by(subject, activity) %>% summarise_each(fu
 names(meas_summary) <- gsub("\\(\\)","",names(meas_summary))
 #
 #  Write to output table
-write.table(meas_summary, file="proj_datatable.txt", sep = " ", row.names=FALSE)
+write.table(meas_summary, file="proj_datatable.txt", sep = ",", row.names=FALSE)
 #
 print ("done processing")
 #  End

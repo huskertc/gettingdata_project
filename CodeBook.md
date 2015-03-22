@@ -33,7 +33,7 @@ Script name: run_analysis.R
  Note that "meanFreq" is not in the subset as that is weighted avg of frequency-space components.
  Note that the angle means are not in the subset as they are the angle between mean vectors.
  Then the average of each subject-exercise combination for each measurement variable is determined and written to the output table.
- Output: space-delimited txt file "proj_datatable.txt" written to working directory.
+ Output: comma-delimited txt file "proj_datatable.txt" written to working directory.
 
 ### Details of the Script Blocks
 * Read subject codes (values = 1:30) for the study participants.
