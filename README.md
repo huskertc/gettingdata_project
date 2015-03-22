@@ -9,7 +9,7 @@ Requires dplyr package
 Reference for data source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 Reference for experiment description: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-##  Notes on Data Files:
+##  Notes on Data Files
 *  After unzipping, read file "README.txt" (description of the experiment and the data files).
 *  File "features_info.txt" describes the measurements taken for each exercise event.
 *  Files "subject_train.txt" and "subject_test.txt" contain subject (people) ID's for each exercise event.
