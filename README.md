@@ -1,9 +1,9 @@
 # Getting Data Project
 Description of script for "Getting and Cleaning Data" course project
 
-Script name: run_analysis.R
-Rev date: 03/2015
-Requires dplyr package
+* Script name: run_analysis.R
+* Rev date: 03/2015
+* Requires dplyr package
 
 ## Original Data Sources
 * [Data source] (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)

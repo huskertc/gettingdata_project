@@ -27,7 +27,7 @@ Script name: run_analysis.R
 * X_train.txt (actual measurement data for each exercise event)
 * X_test.txt (actual measurement data for each exercise event)
 
-##  Script explanation
+##  Script Explanation
  The scripts loads the various txt files into dataframes and adds descriptive variable names and activity names.
  Then the dataframes are merged and a subset of variables is pulled (the mean and std deviation of each exercise event).
  Note that "meanFreq" is not in the subset as that is weighted avg of frequency-space components.
